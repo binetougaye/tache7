@@ -10,17 +10,7 @@ header{
     height: 1000px;
     position: relative;
 }
-.graffiti img{
-    width: 10%;
-   
-}
-.graffiti{
-    font-family: 'Calligraffitti', cursive;
-    font-size: 18px;
-    color: #fff;
-    background-color: rgba(255, 68, 0, 0.859);
-    width: 100px;
-}
+
 
 img{
     width: 100%;
@@ -72,20 +62,217 @@ button{
 }
 .first-navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
+    gap: 80px;
+   
     background-color: black;
     color: rgba(128, 128, 128, 0.779);
+}
+.second-navbar{
+   display: flex;
+   justify-content: center;
+   background-color: #fff;
+   align-items: center;
+   gap: 80px;
+   padding: 10px;
+}
+.one{
+    display: flex;
+    align-items: center;
+
+    gap:20px;
+}
+.one div{
+    /* border-right-width: 1px  ;
+    border-right-color:rgba(128, 128, 128, 0.38) ;
+    border-right-style: solid; */
+   
+    padding-top: 10px;
+   
+}
+.two{
+    display: flex;
+   
+}
+.two img{
+    width: 20px;
+    color: black;
 }
 .right{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
-.one{
-    background-color: #fff;
-    display:flex;
+.right div{
+    font-size: 14px;
+}
+.left div{
+    /* margin-left: 50px; */
+    font-size: 14px;
+}
+.right{
+    position: relative;
+}
+.graffiti{
+    position: absolute;
+    top:16px;
+    bottom:  0px;
+    left: 180px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    padding: 10px;
+    text-align: center;
+    /* font-family: 'graffiti', 'cursive'; */
+    color: #fff;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+section{
+    background-color: #9999;
+}
+.container div img{
+    width: 100%;
+}
+#img{
+    height: 333px;
+    width: 500px;
+}
+#img1{
+    height: 333px;
+    width: 500px; 
+}
+/* Ceci sera utilisé pour la tache 7 */
+.container{
+    display: flex;
     justify-content: center;
 }
+.container{
+    position: relative;
+    bottom: 30px;
+}
+p{
+    position: relative; 
+}
+.me{
+    position: relative;
+    bottom:50px;
+}
+.spe1{
+    position: relative;
+    bottom:40px ;
+    color: #fff;
+    margin-left: 22px;
+    display: inline-block;
+}
+ .spe2{
+   position: relative;
+    display: inline-block;
+    bottom: 40px;
+    color: #fff;
+} 
+.you{
+    position: relative;
+    display: inline-block;
+    bottom: 40px;
+    color: #fff;
+    margin-left: 22px;
+ } 
+.item{
+    position: absolute;
+    bottom: 150px;
+    margin-left: 25px;
+}
+.items{
+    position: absolute;
+    bottom: 150px;
+    margin-left: 25px;
+}
+.item{
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    position: relative;
+    height: 253px;
+    width: 90%;
+    bottom: 320px;
+}
+.items{
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    position: relative;
+    height: 252px;
+    width: 90%;
+    bottom: 320px;
+    
+}
+
+.picture{
+
+}
+#img1{
+
+}
+.item1{
+    position: absolute;
+   height: 170px;
+   border: 1px solid white;
+   bottom: 0px;
+   left: 0px;
+}
+.item3{
+    position: absolute;
+   height: 175px;
+   border: 1px solid white;
+   bottom: 0px;
+   left: 0px;
+}
+.item2{
+    position: absolute;
+   /* height: 10px; */
+   width: 290px;
+   border: 1px solid white;
+   bottom: 250px;
+   right:0px;
+}
+.item4{
+    position: absolute;
+   /* height: 10px; */
+   width: 290px;
+   border: 1px solid white;
+   bottom: 250px;
+   right:0px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    right: 350px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#img{
+    height: 333px;
+    width: 500px;
+}
+.text p{
+    text-align: center;
+    font-size: 40px;
+}
+/* Ceci sera utilisé pour la tache 7 Tafa diarabi*/
+ 
+
