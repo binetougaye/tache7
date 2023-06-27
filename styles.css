@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url('shoes3.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    position: relative;
+}
+.graffiti img{
+    width: 10%;
+   
+}
+.graffiti{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(255, 68, 0, 0.859);
+    width: 100px;
+}
+
+img{
+    width: 100%;
+}
+.logo-puma img{
+    color: #fff;
+    width: 20%;
+    /* margin-bottom: 50px; */
+    position: relative;
+  
+}
+.logo-puma{
+  
+}
+.trait{
+    background-color: red;
+    border: 1px solid red;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.name1{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    width: 120px;
+    padding: 10px;
+}
+.first-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.779);
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.one{
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+}
